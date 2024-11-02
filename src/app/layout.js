@@ -1,3 +1,6 @@
+
+import "./globals.css";
+
 // app/layout.js
 
 import Navbar from "./components/Navbar";
