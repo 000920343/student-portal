@@ -1,10 +1,27 @@
-// app/components/Footer.js
+
 
 export default function Footer() {
     return (
-      <footer style={{ padding: "1rem", backgroundColor: "#f1f1f1" }}>
-        <p>&copy; New Generation High School</p>
+      <footer style={footerStyle}>
+        <p style={footerTextStyle}>© New Generation High School - All Rights Reserved</p>
+        <p style={footerTextStyle}>Contact us: info@newgenerationhighschool.com</p>
       </footer>
     );
   }
+  
+  // Styles
+  const footerStyle = {
+    padding: "1.5rem 0",
+    backgroundColor: "#333", 
+    color: "#fff", 
+    textAlign: "center",
+    marginTop: "2rem", 
+    borderTop: "1px solid #444", 
+  };
+  
+  const footerTextStyle = {
+    margin: "0.5rem 0", 
+    fontSize: "0.9rem", 
+    color: "#ddd", 
+  };
   
